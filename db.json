@@ -1,0 +1,128 @@
+[
+  {
+    "id": "producto1",
+    "nombre": "Decoración Tipo 1",
+    "precio": "$ 100.00",
+    "descripcion": "Decoración de cumpleaños con temática de espacio. \nSuministros para fiesta de cumpleaños, platos y servilletas espaciales. Contiene: 10 figuras de Foami de diferentes tamaños (2 grandes), 5 Platos decorados, un globo de nave espacial y 15 figuras con varitas.",
+    "imagen": "../images/products/decoracion1.jpg"
+  },
+  {
+    "id": "producto2",
+    "nombre": "Decoración Tipo 2",
+    "precio": "$120.00",
+    "descripcion": "Decoraciones de cumpleaños para niños Space Blue Black Balloon Arch Garland with Happy Birthday Banner Astronaut Rocket Foil Balloon Space Themed.",
+    "imagen": "../images/products/decoracion2.jpg"
+  },
+  {
+    "id": "producto3",
+    "nombre": "Decoración Tipo 3",
+    "precio": "$ 60.00",
+    "descripcion": "Decoración de fiesta espacial, globos espaciales, fiesta espacial, decoraciones de cumpleaños espaciales, globo de astronauta, fiesta de galaxia, globos de mermelada espacial.",
+    "imagen": "../images/products/decoracion3.jpg"
+  },
+  {
+    "id": "producto4",
+    "nombre": "Decoración Tipo 4",
+    "precio": "$ 30.00",
+    "descripcion": "Decoración de fiesta para el espacio exterior, espirales colgantes, sistema solar azul, planeta, fiesta, OVNI, cohete, astronauta, letrero de aluminio, espirales para decoración de techo para niños y niños, suministros de decoración de fiesta de cumpleaños, 30 piezas.",
+    "imagen": "../images/products/decoracion4.jpg"
+  },
+  {
+    "id": "producto5",
+    "nombre": "Decoración Tipo 5",
+    "precio": "$ 160.00",
+    "descripcion": "Kit de guirnalda de globo del espacio exterior 109pcs Decoraciones de fiesta del espacio exterior con globos de astronauta de cohete OVNI Brillante guirnalda de estrella para cumpleaños.",
+    "imagen": "../images/products/decoracion5.jpg"
+  },
+  {
+    "id": "producto6",
+    "nombre": "Decoración Tipo 6",
+    "precio": "$ 400.00",
+    "descripcion": "Kit de guirnalda de globos de cumpleaños de astronauta DIY / FOILS INCLUIDOS / Cumpleaños del espacio exterior / Galaxy Party / Two The Moon / Blast Off Arch Kit.",
+    "imagen": "../images/products/decoracion6.jpg"
+  },
+  {
+    "id": "producto7",
+    "nombre": "Pulsera Planetas",
+    "precio": "$ 50.00",
+    "descripcion": "Collar de sistema solar curvo en plata - Collar de planeta, colgante audaz, boda de galaxia - ¡Todos los planetas, incluso Plutón!",
+    "imagen": "../images/products/joyeria1.jpg"
+  },
+  {
+    "id": "producto8",
+    "nombre": "Colgante Astronauta 4pz",
+    "precio": "$ 50.00",
+    "descripcion": "LLavero de astronauta espacial a la moda, llavero de cuerda larga para teléfono móvil, creativo, colgante para coche espacial, accesorios.",
+    "imagen": "../images/products/joyeria2.jpg"
+  },
+  {
+    "id": "producto9",
+    "nombre": "Pulsera Planetas Moradas",
+    "precio": "$ 60.00",
+    "descripcion": "Collar con colgante de estrella que brilla en la oscuridad galaxia de doble cara con forma de cúpula planeta para mujer, accesorios de regalo.",
+    "imagen": "../images/products/joyeria3.jpg"
+  },
+  {
+    "id": "producto10",
+    "nombre": "Anillo Jupiter",
+    "precio": "$ 30.00",
+    "descripcion": "Pulsera de cristal de Júpiter. Brazalete planetario. Espacio, joyería del universo, regalo de cumpleaños, joyería del sistema solar, joyería espacial, joyería del planeta Júpiter, regalo científico.",
+    "imagen": "../images/products/joyeria4.jpeg"
+  },
+  {
+    "id": "producto11",
+    "nombre": "Collar Luna",
+    "precio": "$ 40.00",
+    "descripcion": "Collar con pendiente cósmico de la luna creciente y la galaxia, vidrio púrpura, cadena de 17,5 pulgadas - gran regalo para mujer.",
+    "imagen": "../images/products/joyeria5.jpg"
+  },
+  {
+    "id": "producto12",
+    "nombre": "Anillo Planetas",
+    "precio": "$ 40.00",
+    "descripcion": "Anillo del sistema solar - Planetas del sistema solar, sol y Plutón - Pulsera colorida del espacio exterior celestial.",
+    "imagen": "../images/products/joyeria6.jpg"
+  },
+  {
+    "id": "producto13",
+    "nombre": "Taza Astronauta",
+    "precio": "$ 60.00",
+    "descripcion": "Taza de porcelana con diseño creativo de astronauta espacial coreano, taza con cuchara y tapa para café, leche y té, el mejor regalo de cumpleaños, 450ml.",
+    "imagen": "../images/products/producto1.jpg"
+  },
+  {
+    "id": "producto14",
+    "nombre": "Cubierta para tarjeta 1pz",
+    "precio": "$ 20.00",
+    "descripcion": "Soporte de tarjeta de identificación con cordón de astronauta, colgante de cuello, cuerda larga, insignia de nombre, funda protectora de tarjeta.",
+    "imagen": "../images/products/producto2.jpg"
+  },
+  {
+    "id": "producto15",
+    "nombre": "Lampara de cristal Jupiter",
+    "precio": "$ 180.00",
+    "descripcion": "Lámpara nocturna de bola de vidrio 3D Saturn para niños, lámpara de noche con base de madera, decoración de fantasía, bola de crsytal Saturn LED, galaxia, planeta, luz nocturna, regalo para recámara.",
+    "imagen": "../images/products/producto3.jpg"
+  },
+  {
+    "id": "producto16",
+    "nombre": "Juego de Ropa para cama",
+    "precio": "$ 715.00",
+    "descripcion": "Juego de ropa de cama de astronauta para niños, funda de edredón moderna de microfibra para niños, 3 piezas, funda de edredón con estampado Rocket Planet Star para adolescentes, sin edredón.",
+    "imagen": "../images/products/producto4.jpg"
+  },
+  {
+    "id": "producto17",
+    "nombre": "Playera estampado espacial",
+    "precio": "$ 389.00",
+    "descripcion": "Playera Hombre Moda Cool Astronauta En El Espacio.Prendas de alta calidad con excelentes materiales, cada estampado es elaborado con las mejores técnicas, bordados, tintas y procesos, lo cual nos da como resultado una amplia gama de modelos a elegir.",
+    "imagen": "../images/products/producto5.jpg"
+  },
+  {
+    "id": "producto18",
+    "nombre": "Casco disfraz de Astronauta",
+    "precio": "$ 850.00",
+    "descripcion": "Spirit Halloween - Casco de astronauta blanco para adultos, disfraz de astronauta para cosplay, accesorio de disfraz de astronauta, casco espacial, disfraz fácil.",
+    "imagen": "../images/products/producto6.jpg"
+  }
+]

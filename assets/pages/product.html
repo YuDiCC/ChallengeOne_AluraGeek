@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek | Produtos</title>
+  <link rel="stylesheet" href="../css/producto.css">
+  <link rel="icon" type="image/png" href="../images/logo-title.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+    <section class="header__upper container"><div id="cont">
+      <a href="../pages/login.html" class="header__login" data-button-login>Ingresar</a>
+      <div class="logo__container">
+          <a href="../../index.html">
+            <img src="../images/logo.svg" alt="Logotipo da CosmixWonders">
+          </a>       
+      </div>
+      
+    </div>
+      <div class="search__container">
+        <label for="search" class="sr-only"></label>
+        <input type="text" name="search" id="search" placeholder="¿Qué desea buscar?" class="search__input">
+        <button id="search-button" class="search__button">Buscar</button>
+        <ul id="suggestions" class="suggestions"></ul>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="product">
+      
+        <img id="product-image" src="" alt="Imagen del producto">
+      <div class="product__content">
+        <h3 id="product-title" class="product__title"></h3>
+        <p id="product-price" class="product__price"></p>
+        <p id="product-description" class="product__description"></p>
+      </div>
+    </section>
+
+    <section class="products container">
+      <h2 class="products__title">Produtos similares</h2>
+      <div class="products__content">
+        <ul class="products__cards">
+          <li class="products__card">
+            <img src="../images/products/producto1.jpg" alt="Boneco do Sonic" class="card__image">
+            <h3 class="card__title">Taza Astronauta</h3>
+            <p class="card__price">$ 60.00</p>
+            <a href="product.html#producto13" target="_blank" class="card__link">Ver produto</a>
+          </li>
+          <li class="products__card">
+            <img src="../images/products/decoracion4.jpg" alt="Camiseta Geek" class="card__image">
+            <h3 class="card__title">Decoración Tipo 4</h3>
+            <p class="card__price">$ 30.00</p>
+            <a href="product.html#producto4" target="_blank" class="card__link">Ver produto</a>
+          </li>
+          <li class="products__card">
+            <img src="../images/products/joyeria1.jpg" alt="Boneco do Sonic" class="card__image">
+            <h3 class="card__title">Pulsera Planetas</h3>
+            <p class="card__price">$ 50.00</p>
+            <a href="product.html#producto7" target="_blank" class="card__link">Ver produto</a>
+          </li>
+          <li class="products__card">
+            <img src="../images/products/producto6.jpg" alt="Camiseta Geek" class="card__image">
+            <h3 class="card__title">Casco disfraz de Astronauta</h3>
+            <p class="card__price">$ 850.00</p>
+            <a href="product.html#producto18" target="_blank" class="card__link">Ver produto</a>
+          </li>
+          <li class="products__card">
+            <img src="../images/products/joyeria2.jpg" alt="Boneco do Sonic" class="card__image">
+            <h3 class="card__title">Colgante Astronauta 4pz</h3>
+            <p class="card__price">$ 50.00</p>
+            <a href="product.html#producto8" target="_blank" class="card__link">Ver produto</a>
+          </li>
+          <li class="products__card">
+            <img src="../images/products/joyeria5.jpg" alt="Camiseta Geek" class="card__image">
+            <h3 class="card__title">Collar Luna</h3>
+            <p class="card__price">$ 40.00</p>
+            <a href="product.html#producto11" target="_blank" class="card__link">Ver produto</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="contact container">
+        <img src="../images/logo.svg" alt="Logotipo da AluraGeek" class="contact__logo">
+        <ul class="contact__list">
+          <li class="contact__link">
+            <a href="#">¿Quiénes somos?</a>
+          </li>
+          <li class="contact__link">
+            <a href="#">Política de privacidad</a>
+          </li>
+          <li class="contact__link">
+            <a href="#">Programa de fidelidad</a>
+          </li>
+          <li class="contact__link">
+            <a href="#">Nuestras tiendas</a>
+          </li>
+          <li class="contact__link">
+            <a href="#">Quiero ser franquiciado</a>
+          </li>
+          <li class="contact__link">
+            <a href="#">Anuncie aquí</a>
+          </li>
+        </ul>
+      <form action="" method="post">
+        <fieldset class="contact__form">
+          <legend class="form__title">Hable con nosotros</legend>
+          <div class="input__container">
+            <input type="text" class="form__input main-input" id="name" required>
+            <label for="name" class="suspended-label">Nombre</label>
+          </div>
+          <label for="message" class="sr-only">Mensaje</label>
+          <textarea name="message" id="message" cols="30" rows="4" class="form__message main-input" placeholder="Escriba su mensaje" required></textarea>
+          <button class="form__button main-button">Enviar mensage</button>
+        </fieldset>
+      </form>
+    </section>
+  </section>
+  <section class="credits">
+    <h4 class="credits__title">Desarrollado por Yudi Calan Chan ©2023     
+    </h4><br>
+    <div class="redesSociales">
+      <a href="https://github.com/YuDiCC" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/yudi-aleyda-calan-chan-a40154277/" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a href="https://www.instagram.com/ale_calan04/" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </section>
+  </footer>
+  <script src="../js/productos.js"></script>
+  <script src="../js/search-productos.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek │ Editar Productos</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" type="image/png" href="../images/logo-title.png">
+    <link rel="stylesheet" href="../css/crear-producto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+      <section class="header__upper container"><div id="cont">
+        <a href="../pages/login.html" class="header__login" data-button-login>Ingresar</a>
+        <div class="logo__container">
+            <a href="../../index.html">
+              <img src="../images/logo.svg" alt="Logotipo da AluraGeek">
+            </a>       
+        </div>
+      </div>
+        <div class="search__container">
+          <label for="search" class="sr-only"></label>
+          <input type="text" name="search" id="search" placeholder="¿Qué desea buscar?" class="search__input">
+          <button id="search-button" class="search__button">Buscar</button>
+          <ul id="suggestions" class="suggestions"></ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+        <form id="edit-form" class="add-product container">
+
+            <label for="imagen">URL de la Imagen:</label><br>
+            <input type="text" id="imagen" required><br>
+
+            <label for="nombre">Nombre del Producto:</label><br>
+            <input type="text" id="nombre" required><br>
+    
+            <label for="precio">Precio del Producto:</label><br>
+            <input type="text" id="precio" required><br>
+    
+            <label for="descripcion">Descripción del Producto:</label><br>
+            <input type="text" id="descripcion" required><br>
+
+            <div class="btn-crear">
+                <button type="submit">Guardar Cambios</button>
+                <button type="button" onclick="cancelarEdicion()">Cancelar</button>
+            </div>
+    
+        </form>
+    </main>
+
+      <!--FOOTER-->
+      <footer>
+        <section class="contact container">
+            <img src="../images/logo.svg" alt="Logotipo da AluraGeek" class="contact__logo">
+            <ul class="contact__list">
+              <li class="contact__link">
+                <a href="#">¿Quiénes somos?</a>
+              </li>
+              <li class="contact__link">
+                <a href="#">Política de privacidad</a>
+              </li>
+              <li class="contact__link">
+                <a href="#">Programa de fidelidad</a>
+              </li>
+              <li class="contact__link">
+                <a href="#">Nuestras tiendas</a>
+              </li>
+              <li class="contact__link">
+                <a href="#">Quiero ser franquiciado</a>
+              </li>
+              <li class="contact__link">
+                <a href="#">Anuncie aquí</a>
+              </li>
+            </ul>
+          <form action="" method="post">
+            <fieldset class="contact__form">
+              <legend class="form__title">Hable con nosotros</legend>
+              <div class="input__container">
+                <input type="text" class="form__input main-input" id="name" required>
+                <label for="name" class="suspended-label">Nombre</label>
+              </div>
+              <label for="message" class="sr-only">Mensaje</label>
+              <textarea name="message" id="message" cols="30" rows="4" class="form__message main-input" placeholder="Escriba su mensaje" required></textarea>
+              <button class="form__button main-button">Enviar mensage</button>
+            </fieldset>
+          </form>
+        </section>
+        <section class="credits">
+          <h4 class="credits__title">Desarrollado por Yudi Calan Chan ©2023     
+          </h4><br>
+          <div class="redesSociales">
+            <a href="https://github.com/YuDiCC" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+      
+            <a href="https://www.linkedin.com/in/yudi-aleyda-calan-chan-a40154277/" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
+      
+            <a href="https://www.instagram.com/ale_calan04/" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </section>
+      </footer>
+
+    <script src="../js/operaciones-crud.js"></script>
+</body>
+</html>
